@@ -4,6 +4,7 @@ const config = require('../config');
 export class Environment {
 
     static getName(): string {
+
         return process.env.NODE_ENV || 'development';
     }
 

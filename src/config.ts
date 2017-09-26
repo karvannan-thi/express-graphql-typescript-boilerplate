@@ -7,7 +7,7 @@ export = <config.Environments>{
      */
     development: {
         database: {
-            connection: 'mysql://root@localhost:3306/my-database-dev',
+            connection: 'mysql://root@localhost:3306/godeg-dev',
             client: 'mysql',
             migrations: {
                 directory: './src/database/migrations',
@@ -37,7 +37,7 @@ export = <config.Environments>{
      */
     test: {
         database: {
-            connection: 'mysql://root:root@localhost:3306/my-database-test',
+            connection: 'mysql://root:root@localhost:3306/godeg-test',
             client: 'mysql',
             migrations: {
                 directory: './src/database/migrations',
@@ -68,7 +68,7 @@ export = <config.Environments>{
      */
     production: {
         database: {
-            connection: 'mysql://root:root@localhost:3306/my-database-prod',
+            connection: 'mysql://root:root@localhost:3306/godeg-prod',
             client: 'mysql',
             migrations: {
                 directory: './src/database/migrations',
